@@ -1,0 +1,16 @@
+$navbar-default-bg: #312312;
+$light-orange: #ff8c00;
+$navbar-default-color: $light-orange;
+$text-color: #bdc3c7;
+@import "bootstrap";
+//@import "bootstrap/theme";
+@import "typography";
+@import "colors";
+@import "variables";
+
+@import "animate";
+
+@import "partials/buttons";
+@import "partials/navigation";
+
+@import "pages/auth";

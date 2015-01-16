@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/Mike/.nvm/v0.10.33/bin/node',
+1 verbose cli   '/Users/Mike/.nvm/v0.10.33/bin/npm',
+1 verbose cli   'rebuild',
+1 verbose cli   'node-sass' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 info readInstalled object
+5 verbose rebuild path, id [ '/Users/Mike/Code/laravel/hawksmoor-ext/node_modules/node-sass',
+5 verbose rebuild   'node-sass@1.2.3' ]
+6 verbose rebuild path, id [ '/Users/Mike/Code/laravel/hawksmoor-ext/node_modules/laravel-elixir/node_modules/gulp-sass/node_modules/node-sass',
+6 verbose rebuild   'node-sass@1.2.3' ]
+7 silly rebuild set [ '/Users/Mike/Code/laravel/hawksmoor-ext/node_modules/node-sass',
+7 silly rebuild set   '/Users/Mike/Code/laravel/hawksmoor-ext/node_modules/laravel-elixir/node_modules/gulp-sass/node_modules/node-sass' ]
+8 info build /Users/Mike/Code/laravel/hawksmoor-ext/node_modules/node-sass
+9 info preinstall node-sass@1.2.3
+10 verbose linkStuff [ false,
+10 verbose linkStuff   false,
+10 verbose linkStuff   false,
+10 verbose linkStuff   '/Users/Mike/Code/laravel/hawksmoor-ext/node_modules' ]
+11 info linkStuff node-sass@1.2.3
+12 verbose linkBins node-sass@1.2.3
+13 verbose link bins [ { 'node-sass': 'bin/node-sass' },
+13 verbose link bins   '/Users/Mike/Code/laravel/hawksmoor-ext/node_modules/.bin',
+13 verbose link bins   false ]
+14 verbose linkMans node-sass@1.2.3
+15 verbose rebuildBundles node-sass@1.2.3
+16 info install node-sass@1.2.3
+17 verbose unsafe-perm in lifecycle false
+18 info node-sass@1.2.3 Failed to exec install script
+19 error node-sass@1.2.3 install: `node scripts/install.js`
+19 error Exit status 8
+20 error Failed at the node-sass@1.2.3 install script.
+20 error This is most likely a problem with the node-sass package,
+20 error not with npm itself.
+20 error Tell the author that this fails on your system:
+20 error     node scripts/install.js
+20 error You can get their info via:
+20 error     npm owner ls node-sass
+20 error There is likely additional logging output above.
+21 error System Darwin 14.0.0
+22 error command "/Users/Mike/.nvm/v0.10.33/bin/node" "/Users/Mike/.nvm/v0.10.33/bin/npm" "rebuild" "node-sass"
+23 error cwd /Users/Mike/Code/laravel/hawksmoor-ext
+24 error node -v v0.10.33
+25 error npm -v 1.4.28
+26 error code ELIFECYCLE
+27 verbose exit [ 1, true ]
